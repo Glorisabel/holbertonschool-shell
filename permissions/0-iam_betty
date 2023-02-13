@@ -1,2 +1,2 @@
 #!/bin/bash
-if id "betty"
+su -betty -c 
