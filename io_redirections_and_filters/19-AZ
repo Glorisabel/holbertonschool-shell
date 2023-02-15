@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Input string" | 's/A/Z/g; s/c/c/g'
+tr -s "A-Z" "c-e"
