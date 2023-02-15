@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o "root" fail -n 3 /etc/passwd
+grep -A 3 "root" /etc/passwd | fail -n 3
